@@ -16,4 +16,7 @@ describe("Verificar", () => {
   it("Debería devolver incorrecto", () => {
     expect(verificar("[[][")).toEqual("Incorrecto");
   });
+  it("Debería devolver correcto", () => {
+    expect(verificar("[[Hola]]")).toEqual("Correcto");
+  });
 });
