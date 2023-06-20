@@ -1,4 +1,4 @@
-import sumar from "./sumador";
+import verificador from "./verificador";
 
 const first = document.querySelector("#primer-numero");
 const second = document.querySelector("#segundo-numero");
