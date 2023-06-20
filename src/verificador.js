@@ -4,8 +4,7 @@ function verificar(cadena) {
   if (letras[0] == "[" && letras[letras.length - 1] == "]") {
     resp = "Correcto";
   }
-  if(letras.length>2)
-  {
+  if (letras.length > 2) {
     if (letras[1] == "[" && letras[letras.length - 2] == "]" && letras[0] == "[" && letras[letras.length - 1] == "]") {
       resp = "Correcto";
     }

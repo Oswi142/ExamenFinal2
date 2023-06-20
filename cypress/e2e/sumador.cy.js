@@ -1,4 +1,4 @@
-describe("Verificador", () => {
+describe("Publicador", () => {
   it("Debería mostrar Correcto", () => {
     cy.visit("index.html");
     cy.get("#primera-cadena").type("Hola");
